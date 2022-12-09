@@ -1,0 +1,51 @@
+### Product Post
+# POST http://localhost:90/product/insert
+Content-Type: application/json
+
+{
+    "productName":"Trouser",
+    "productPrice":2500,
+    "productShortDescription": "Silk",
+    "productCategory":"Home",
+    "featureName":"Fabric",
+    "featureValue":"Cotton",
+    "productDescription":"Trouser is a long loose shirt, the length of which falls below or may be just above the knees of the wearer. In early times, it was primarily worn by men, but today, it has become a unisex dress that both men and women can wear.",
+    "productOtherDetails":"Return policies are the rules a retailer creates to manage how customers return and exchange unwanted merchandise they purchased. A return policy tells customers what items can be returned and for what reasons, and the timeframe over which returns are accepted. This product is eligible for returns and size replacements. Please initiate returns/replacements from the 'My Orders' section in the App within 7 days of delivery. Please ensure the product is in its original condition with all tags attached."
+}
+
+### Product fetch
+GET http://localhost:90/product/get
+Content-Type: application/json
+
+### Product fetch by categoryName
+GET http://localhost:90/product/category/Jacket
+Content-Type: application/json
+
+### Product fetch by productName
+GET http://localhost:90/product/fetch/Aline
+Content-Type: application/json
+
+### Product Update
+PUT http://localhost:90/product/update/612774476228eb258439fe71
+Content-Type: application/json
+
+{
+    "productName":"Ok Product",
+    "productRating":4
+}
+
+### Product delete
+DELETE http://localhost:90/product/delete/614eeb813406491404a5a59a
+Content-Type: application/json
+
+### Product fetch by Id
+GET http://localhost:90/product/getById/61458d969844a11d38e6e635
+Content-Type: application/json
+
+### Product fetch by regex
+GET http://localhost:90/product/search/s
+Content-Type: application/json
+
+### Product upload image
+PUT http://localhost:90/product/image/upload/61386d1910ba160afc1e2c39
+Content-Type: application/json

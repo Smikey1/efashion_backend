@@ -1,0 +1,18 @@
+### cart Post
+POST http://localhost:90/cart/insert/61458d969844a11d38e6e635
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Update cart
+PUT http://localhost:90/cart/update/6139c279d273c815c00a05d4/22
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Delete cart
+DELETE  http://localhost:90/cart/delete/61458e1c9844a11d38e6e637
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Get All cart
+GET http://localhost:90/cart/get/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc

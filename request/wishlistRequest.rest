@@ -1,0 +1,15 @@
+### Post wishlist
+POST http://localhost:90/wishlist/insert/61458d969844a11d38e6e635
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+
+### Delete wishlist
+DELETE  http://localhost:90/wishlist/delete/61389f3b73efbe3950418650
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMzcyNGMyOWJmYjRiMThmODdmNTQ2OCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzEwOTAxNjJ9.VLBgaOYGx2PhP1IV_rZ3ckhv4aX04hRWQekh1f6ZsnE
+
+### Get All wishlist
+GET http://localhost:90/wishlist/get/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc

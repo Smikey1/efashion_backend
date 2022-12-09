@@ -1,0 +1,33 @@
+### order Post
+POST http://localhost:90/order/insert
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+{
+    "order": [ {"productId":"61458c219844a11d38e6e62b","qty":5},{"productId":"61458c4e9844a11d38e6e62d","qty":2}]
+}
+
+### Update order
+PUT http://localhost:90/order/update/614f116eda7d9b3e00e780d0
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+{
+    "deliveryDate":"Delivered on Mon, 2021-01-02",
+    "deliveryStatusMessage":"Completed"
+}
+
+### Delete order
+DELETE  http://localhost:90/order/delete/615a98015c38a72798743082
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNWE5NmUxNWMzOGE3Mjc5ODc0MzAzZCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzMzMjY4NDR9.erk9bhITA5ahB2c5v9odMZnezMp3CPwFYMEXnNx2v0o
+
+### Get All order
+GET http://localhost:90/order/get/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNWE5NmUxNWMzOGE3Mjc5ODc0MzAzZCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzMzMjY4NDR9.erk9bhITA5ahB2c5v9odMZnezMp3CPwFYMEXnNx2v0o
+
+### Get order by Id
+GET http://localhost:90/order/getById/614f116eda7d9b3e00e780d0
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc

@@ -1,0 +1,41 @@
+### Review Post by product Id
+POST http://localhost:90/review/insert/6145a1b1385aa21870099ee8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzMwMTU0Nzd9.uyEAjo2xgzhJ_JmBVbABOVyb6EKL-Z7n4sEQbWQhIEo
+
+{
+    "review": "This product is Good"
+}
+
+### Update Review by review Id
+PUT http://localhost:90/review/update/6156aac57a683e31c0dc07f5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+{
+    "review": "This product is Dammi"
+}
+
+### Delete Review
+DELETE  http://localhost:90/review/delete/614381633eb2e40f98c2fe38
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Get All Review
+GET http://localhost:90/review/get/
+Content-Type: application/json
+
+### Get Review by review Id
+GET http://localhost:90/review/getById/6155f79134d89c0ab8316a0d
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Get Review by Product Id
+GET http://localhost:90/review/getByProduct/61458d969844a11d38e6e635
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Get Review by User Id
+GET http://localhost:90/review/get/userId
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc

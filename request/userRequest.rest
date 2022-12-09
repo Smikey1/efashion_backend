@@ -1,0 +1,49 @@
+### Register
+POST http://localhost:90/user/register
+Content-Type: application/json
+
+{
+    "fullname": "subas100",
+    "email": "subas100@gmail.com",
+    "password":"subas100"
+}
+
+### Login
+POST http://localhost:90/user/login
+Content-Type: application/json
+
+{
+    "email": "hello@text.com",
+    "password":"hello123"
+}
+
+### Get Profile
+GET http://localhost:90/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNGNhOWRhZjViNjU3MDM1YzQzMzc5ZCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzI0MTQyODB9.KP3C4Ijy1GRr6VWT20rk_75KjWH1uBsDT5LB_WYup0A
+
+### Get All User
+GET http://localhost:90/user/get
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNGNhOWRhZjViNjU3MDM1YzQzMzc5ZCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzI0MTQyODB9.KP3C4Ijy1GRr6VWT20rk_75KjWH1uBsDT5LB_WYup0A
+
+### Update Profile
+PUT http://localhost:90/user/update/614ca9daf5b657035c43379d
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNGNhOWRhZjViNjU3MDM1YzQzMzc5ZCIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzI0MTQyODB9.KP3C4Ijy1GRr6VWT20rk_75KjWH1uBsDT5LB_WYup0A
+Content-Type: application/json
+
+{
+    "fullname": "hi hi",
+    "username": "hi@efashion.com",
+    "email": "hi@text.com",
+    "username":"hi@efashion.com",
+    "phone":"984XXXXXX",
+    "role":"Admin"
+}
+
+### Change Password 
+PUT http://localhost:90/user/change-password/613724c29bfb4b18f87f5468
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxM2VmOGExZTI1NjI2MjNjOGE5OWYwYyIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE1MTc2MDZ9.GQhv1Nw-TDvO9A2w92IxR53OK2sp1p0zCifIHorTQzk
+Content-Type: application/json
+
+{
+    "password":"hello123"
+}

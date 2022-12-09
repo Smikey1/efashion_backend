@@ -1,0 +1,20 @@
+### Rating Post by product Id
+POST http://localhost:90/rating/upsert/61458d969844a11d38e6e635/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzMwMTU0Nzd9.uyEAjo2xgzhJ_JmBVbABOVyb6EKL-Z7n4sEQbWQhIEo
+
+### Get All Rating
+GET http://localhost:90/rating/get/61458c219844a11d38e6e62b
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzMwMTU0Nzd9.uyEAjo2xgzhJ_JmBVbABOVyb6EKL-Z7n4sEQbWQhIEo
+
+
+### Get Rating by product Id
+GET http://localhost:90/rating/get/61458d009844a11d38e6e631
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
+
+### Get Rating by rating Id
+GET http://localhost:90/rating/get/6155d7dd98d2fa2e7ce37887
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDRhOGI1YjliNGFiM2E3NGQ2YjkyZSIsIm1zZyI6IlRoaXMgaXMgbXkgdG9rZW4iLCJpYXQiOjE2MzE5NjM2MjZ9.tehA0-B1sYVibhT7vM6JEBsWEEU-t6zLCNwCAG8pdDc
